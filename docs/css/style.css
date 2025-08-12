@@ -21,8 +21,13 @@ img {
     display: none
 }
 
-.highlight {
+a {
     color: #bf6d6d;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.7;
 }
 
 .fa {
@@ -31,10 +36,6 @@ img {
     text-decoration: none;
     border-radius: 25%;
     color: #bbbbbb;
-}
-
-.fa:hover {
-    opacity: 0.7;
 }
 
 #intro {
@@ -53,8 +54,9 @@ img {
 #about {
     min-width: 400px;
     max-width: 770px;
+    margin-bottom: 0;
 }
 
 #contact {
-    margin-top: 5%;
+    margin-top: 7%;
 }
